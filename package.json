@@ -1,13 +1,23 @@
 {
   "name": "hanzo",
   "version": "0.1.0",
-  "description": "Command-line client for interacting with Hanzo.",
-  "main": "index.js",
+  "description": "Command-line tool for interacting with Hanzo.",
+  "homepage": "http://github.com/hanzo-io/cli",
+  "bugs": "http://github.com/hanzo-io/cli/issues",
+  "keywords": [
+    "hanzo",
+    "ecommerce"
+  ],
+  "main": "bin/hanzo",
   "scripts": {
     "test": "cake test"
   },
   "author": "Hanzo, Inc <hi@hanzo.io> (https://hanzo.io)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hanzo-io/cli"
+  },
   "dependencies": {
     "hanzo.js": "2.2.7",
     "prompt": "0.2.14",
