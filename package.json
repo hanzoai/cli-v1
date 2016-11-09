@@ -1,6 +1,6 @@
 {
   "name": "hanzo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command-line tool for interacting with Hanzo.",
   "homepage": "http://github.com/hanzo-io/cli",
   "bugs": "http://github.com/hanzo-io/cli/issues",
