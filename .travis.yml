@@ -1,0 +1,18 @@
+before-install:
+- export TRAVIS_COMMIT_MSG="$(git log --format=%B --no-merges -n 1)"
+language: node_js
+node_js:
+- 0.1
+- 0.12
+- iojs
+script: |
+  ./node_modules/.bin/shortcake test
+cache:
+  directories:
+  - node_modules
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+  slack:
+    secure: THdBGkjI6FR6XcBYHy75D8raGbtDgKHfSrsYOF5rw9WD16vwZuJgXVAX6g3imlzcFdwmpPP/s19XAJBiY0TFrBCht0Q6w4ldaLitVr1hEvhUKEhLgRYjd3mPqY126q/1F1uFIWp/fm09zocHDYwTHpy8pxiVduQUl1g80IN9ZCc=
