@@ -1,2 +1,2 @@
 # Hanzo CLI
-Command-line client for interacting with Hanzo.
+Command-line tool for interacting with Hanzo.
